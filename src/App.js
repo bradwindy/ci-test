@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-unused-vars
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 
 class App extends Component {
-  render() {
+  render () {
     return (
       <div className="App">
-        <button>Click Me</button>
+        <button>Click!</button>
       </div>
     )
   }
