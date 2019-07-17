@@ -1,12 +1,14 @@
-import React, {Component} from "react"
+// eslint-disable-next-line no-unused-vars
+import React, {Component} from 'react'
 
 class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <button>Click Me</button>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="App">
+        <button>Click Me</button>
+      </div>
+    )
+  }
 }
-export default App;
+
+export default App

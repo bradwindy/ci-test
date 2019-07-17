@@ -2,9 +2,13 @@
   "env": {
     "browser": true,
     "es6": true,
-    "node": true
+    "node": true,
+    "jest": true
   },
-  "extends": "standard",
+  "extends": [
+    "standard",
+    "plugin:react/recommended"
+  ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
