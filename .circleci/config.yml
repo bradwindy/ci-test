@@ -31,4 +31,4 @@ jobs:
           name: Ensure artifacts directory is present
       - run:
           name: ESLINT
-          command: yarn lint
+          command: eslint.js . --ext .js,.jsx --fix

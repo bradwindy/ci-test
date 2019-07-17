@@ -12,8 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --updateSnapshot",
     "test:coverage": "react-scripts test --coverage",
-    "eject": "react-scripts eject",
-    "lint": "./node_modules/eslint/bin/eslint.js . --ext .js --fix"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
