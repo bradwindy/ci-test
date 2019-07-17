@@ -32,5 +32,11 @@
   "devDependencies": {
     "react-test-renderer": "^16.8.6",
     "typescript": "^3.5.3"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js"
+    ]
   }
 }
