@@ -25,3 +25,11 @@ jobs:
             ./cc-test-reporter before-build
             npm test -- --coverage
             ./cc-test-reporter after-build --exit-code $?
+
+      - run:
+          command: mkdir -p reports/eslint
+          name: Ensure artifacts directory is present
+      - run:
+          name: ESLINT
+          command: |
+            yarn eslint --max-warnings=0 --format junit --output-file ./reports/eslint/eslint.xml
