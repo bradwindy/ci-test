@@ -3,7 +3,7 @@ orbs:
 version: 2.1
 
 jobs:
-  build:
+  coverage:
     docker:
       - image: circleci/node:6
     steps:
@@ -43,3 +43,4 @@ workflows:
       - react/coverage:
           requires:
             - react/install
+      - coverage
