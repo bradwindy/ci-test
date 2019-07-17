@@ -31,4 +31,4 @@ jobs:
           name: Ensure artifacts directory is present
       - run:
           name: ESLINT
-          command: eslint src/ --ext .js,.jsx --fix
+          command: ./node_modules/eslint/bin/eslint.js src/ --ext .js,.jsx --fix --output-file ./reports/eslint/eslint.xml
