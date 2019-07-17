@@ -1,19 +1,18 @@
 orbs:
   react: thefrontside/react@0.2.0
 version: 2.1
-workflows:
-  push:
-    jobs:
-      - react/install
-      - react/eslint:
-          requires:
-            - react/install
-      - react/test:
-          requires:
-            - react/install
-      - react/coverage:
-          requires:
-            - react/install
+
+jobs:
+  build:
+    docker:
+      - image: circleci/node:6
+    steps:
+      - checkout
+      - restore_cache: # special step to restore the dependency cache
+          key: dependency-cache-
+      - run:
+          name: Setup Dependencies
+          command: npm install
       - run:
           name: Setup Code Climate test-reporter
           command: |
@@ -29,3 +28,18 @@ workflows:
             ./cc-test-reporter before-build
             npm test -- --coverage
             ./cc-test-reporter after-build --exit-code $?
+
+
+workflows:
+  push:
+    jobs:
+      - react/install
+      - react/eslint:
+          requires:
+            - react/install
+      - react/test:
+          requires:
+            - react/install
+      - react/coverage:
+          requires:
+            - react/install
