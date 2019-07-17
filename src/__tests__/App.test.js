@@ -1,7 +1,7 @@
 import React from 'react'
 import App from '../App'
 import ReactDOM from 'react-dom'
-import {create} from 'react-test-renderer'
+import { create } from 'react-test-renderer'
 
 describe('App Button Match', () => {
   test('Testing app button', () => {
