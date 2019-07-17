@@ -6,7 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/bradwindy/ci-test.svg?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/bradwindy/ci-test.svg)
 
-##About
+## About
 This repo is a test project I created to learn how to implement aspects of continuous integration and testing, 
 specifically with React. 
 
