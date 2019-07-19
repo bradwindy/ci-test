@@ -1,4 +1,4 @@
-# React.js CI and Testing Template
+# React.js CI and Testing Template Repo
 ![CircleCI](https://img.shields.io/circleci/build/github/bradwindy/ci-test/master.svg?token=07ace020ab2b0a66ff1bc2e44d2c1d057feaec4a)
 ![Code Climate coverage](https://img.shields.io/codeclimate/coverage/bradwindy/ci-test.svg)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/bradwindy/ci-test.svg)
