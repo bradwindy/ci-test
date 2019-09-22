@@ -10,8 +10,8 @@
     "bootstrap": "4.3.1",
     "jquery": "3.4.1",
     "popper.js": "1.15.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -44,7 +44,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.14.3",
     "eslint-plugin-standard": "4.0.0",
-    "react-test-renderer": "16.8.6",
+    "react-test-renderer": "16.9.0",
     "stylelint": "10.1.0",
     "stylelint-config-standard": "18.3.0",
     "stylelint-junit-formatter": "0.2.1",
